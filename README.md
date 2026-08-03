@@ -1,6 +1,6 @@
 # ZARQA Grid Inspection Humanoid Core
 
-[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-DOI%20Pending-blue)](https://zenodo.org/)
+[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21772641-blue)](https://doi.org/10.5281/zenodo.21772641)
 [![DOI - Paper](https://img.shields.io/badge/Zenodo%20Paper-10.5281%2Fzenodo.21771994-00557f)](https://doi.org/10.5281/zenodo.21771994)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Compliance: IEC 63439 / 62443](https://img.shields.io/badge/Compliance-IEC%2063439%20%7C%2062443-orange)](https://www.iec.ch/)
