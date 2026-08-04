@@ -1,6 +1,6 @@
 # ZARQA Grid Inspection Humanoid Core
 
-[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21772641-blue)](https://doi.org/10.5281/zenodo.21772641)
+[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21785862-blue)](https://doi.org/10.5281/zenodo.21785862)
 [![DOI - Paper](https://img.shields.io/badge/Zenodo%20Paper-10.5281%2Fzenodo.21771994-00557f)](https://doi.org/10.5281/zenodo.21771994)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Compliance: IEC 63439 / 62443](https://img.shields.io/badge/Compliance-IEC%2063439%20%7C%2062443-orange)](https://www.iec.ch/)
@@ -12,10 +12,9 @@
 
 ## 📌 Overview
 
-Autonomous humanoid robotics deployed in high-voltage grid inspection and critical infrastructure require deterministic stability guarantees and cryptographic resilience against physical, cyber, and adversarial sensor intrusion.
+Autonomous humanoid robotics deployed in high-voltage grid inspection and critical infrastructure require deterministic stability guarantees and cryptographic resilience against physical, cyber, and adversarial sensor intrusion. 
 
-The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phase verification and real-time control architecture that enforces an immutable operational invariant:
-
+The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phase verification and real-time control architecture that enforces an immutable operational invariant:  
 **No physical action is executed unless the underlying differential dynamics are mathematically certified and cryptographically attested at runtime.**
 
 ---
@@ -23,7 +22,6 @@ The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phas
 ## 🏛️ Core Mathematical & Defensive Guarantees
 
 ### Phase 1: Foundational Mathematical Verification (`zarqa_gih_math_core.py`)
-
 1. **Kuramoto Phase-Locking ($r > 0.95$):** Enforces Fault-Ride-Through (FRT) phase synchronization across distributed motor and clock networks under grid voltage disturbances.
 2. **Lyapunov Asymptotic Stability ($\gamma < -0.50$):** Solves the Continuous Algebraic Riccati Equation (CARE) for Linear Inverted Pendulum Model (LIPM) dynamics, proving strict continuous energy dissipation.
 3. **ZMP Stochastic Walking Safety ($\vert{}p_{\text{ZMP}}\vert{} < 0.15\text{ m}$):** Binds Zero-Moment Point walking balance under Ornstein-Uhlenbeck (OU) proprioceptive sensor drift.
@@ -32,7 +30,6 @@ The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phas
 6. **Zero-Trust Linux Sandboxing:** Automated blue-green virtual environment provisioning, kernel capability restrictions (`CAP_NET_BIND_SERVICE` only), Address Family filtering (`AF_INET`, `AF_UNIX`), and TPM 2.0 / CSPRNG-seeded HMAC hash-chain audit logging.
 
 ### Phase 2: Real-Time Kinematics & Underactuated Control (`zarqa_gih_kinematics_core.py`)
-
 1. **7-DOF Denavit-Hartenberg Arm & Hybrid IK:** Combines an Active-Set Sequential Least Squares Programming (SLSQP) primary solver with a Damped Least-Squares (DLS) Singular Value Decomposition (SVD) fallback solver to guarantee convergence near kinematic singularities without violating physical joint bounds.
 2. **LMI-Synthesized $H_\infty$ & LQR Underactuated Control:** Manages balance and joint dynamics modeled as an LTI system via Riccati bisection search and Linear Matrix Inequality (LMI) barrier heuristics, falling back to an LQR controller under extreme disturbance attenuation.
 3. **Gait Stability & Tower-Climbing MPC:** Implements a Discrete Algebraic Riccati Model Predictive Controller (MPC) for vertical climbing, featuring dynamic recovery damping that halts vertical progression and redirects 100% of control authority to balance recovery if disturbance estimates exceed 0.10.
@@ -137,7 +134,7 @@ If you use this codebase or mathematical architecture in your research, please c
   year         = {2026},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.21771994},
-  url          = {https://doi.org/10.5281/zenodo.21771994}
+  url          = {[https://doi.org/10.5281/zenodo.21771994](https://doi.org/10.5281/zenodo.21771994)}
 }
 
 ```
