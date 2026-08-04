@@ -1,7 +1,9 @@
 # ZARQA Grid Inspection Humanoid Core
 
-[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21785862-blue)](https://doi.org/10.5281/zenodo.21785862)
-[![DOI - Paper](https://img.shields.io/badge/Zenodo%20Paper-10.5281%2Fzenodo.21771994-00557f)](https://doi.org/10.5281/zenodo.21771994)
+[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21791735-blue)](https://doi.org/10.5281/zenodo.21791735)
+[![DOI - Phase I Paper](https://img.shields.io/badge/Zenodo%20Phase%20I%20Paper-10.5281%2Fzenodo.21771994-00557f)](https://doi.org/10.5281/zenodo.21771994)
+[![DOI - Phase II Paper](https://img.shields.io/badge/Zenodo%20Phase%20II%20Paper-10.5281%2Fzenodo.21786725-00557f)](https://doi.org/10.5281/zenodo.21786725)
+[![DOI - Phase III Paper](https://img.shields.io/badge/Zenodo%20Phase%20III%20Paper-10.5281%2Fzenodo.21791840-00557f)](https://doi.org/10.5281/zenodo.21791840)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Compliance: IEC 63439 / 62443](https://img.shields.io/badge/Compliance-IEC%2063439%20%7C%2062443-orange)](https://www.iec.ch/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -38,7 +40,7 @@ The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phas
 6. **Zero-Trust Blue-Green Execution & Hot-Reloading:** Integrates POSIX atomic symlink swapping (`renameat2`), 120-second automated health-check rollbacks, TPM 2.0 / PBKDF2 HMAC-SHA256 configuration signing, and zero-downtime `SIGHUP` hot-reloading for runtime parameter updates.
 
 ### Phase 3: Spatial Cognition & Tamper-Evident Perception (`zarqa_gih_spatial_cognition_core.py`)
-1. **Quantized Tustin CM-SS2D & LHP Invariance:** Continuous-to-discrete bilinear (Tustin) state-space discretization proves Schur stability ($z_k < 1$) across gear-quantized sampling intervals under dynamic skew-symmetric perturbations ($A_{\text{pert}} = A + \epsilon J$).
+1. **Quantized Tustin CM-SS2D & LHP Invariance:** Continuous-to-discrete bilinear (Tustin) state-space discretization proves Schur stability ($\vert{}z_k\vert{} < 1$) across gear-quantized sampling intervals under dynamic skew-symmetric perturbations ($A_{\text{pert}} = A + \epsilon J$).
 2. **Variational Bayesian GSCKF & Covariance Positive-Definiteness:** Implements a Gaussian-Sum Cubature Kalman Filter (GSCKF) with Bures-Wasserstein trace regularization and Ledoit-Wolf shrinkage to guarantee strict positive-definiteness ($\lambda_{\min}(\Sigma_{\text{LW}}) > 0$) and bounded spectral condition numbers.
 3. **Tamper-Evident Spatial Memory:** Binds 2D log-odds Bayesian occupancy mapping to a recursive SHA-256 cryptographic hash chain, ensuring collision-resistant detection of unauthorized spatial memory modification ($P(\text{detect}) \ge 1 - 2^{-256}$) under the Random Oracle Model.
 4. **Sobolev-Orthogonalized MoE-CLIP Anomaly Detection:** Applies Fréchet Inception Distance (FID) gating on Sobolev-projected visual embeddings ($\mathcal{P}_{\alpha}(f)$), guaranteeing deterministic threshold separability between benign structural tower wear and adversarial visual camouflage.
@@ -148,6 +150,15 @@ curl http://localhost:9101/metrics
 If you use this codebase or mathematical architecture in your research, please cite our official Zenodo whitepaper family and software repository:
 
 ```bibtex
+@software{ahmed2026zarqa_software_v3,
+  author       = {Ahmed, Mohammad Shahbaaz},
+  title        = {ZARQA Grid Inspection Humanoid Core: Phase III Spatial Cognition & Tamper-Evident Perception Release (v3.0.0)},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.21791735},
+  url          = {[https://doi.org/10.5281/zenodo.21791735](https://doi.org/10.5281/zenodo.21791735)}
+}
+
 @techreport{ahmed2026zarqa_phase1,
   author       = {Ahmed, Mohammad Shahbaaz},
   title        = {A Cyber-Physical Sovereign Architecture for Autonomous Grid-Inspection Humanoids: Formal Verification, Lyapunov Dissipation Bounds, and Immutable Zero-Trust Sandboxing},
@@ -171,8 +182,8 @@ If you use this codebase or mathematical architecture in your research, please c
   title        = {A Cyber-Physical Sovereign Architecture for Autonomous Grid-Inspection Humanoids: Variational Bayesian Cubature Kalman Filtering, Sobolev-Orthogonalized MoE-CLIP Anomaly Detection, and Tamper-Evident Spatial Memory (Phase III)},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21785862},
-  url          = {[https://doi.org/10.5281/zenodo.21785862](https://doi.org/10.5281/zenodo.21785862)}
+  doi          = {10.5281/zenodo.21791735},
+  url          = {[https://doi.org/10.5281/zenodo.21791840](https://doi.org/10.5281/zenodo.21791840)}
 }
 
 ```
