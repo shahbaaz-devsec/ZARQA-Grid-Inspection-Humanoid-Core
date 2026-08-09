@@ -1,9 +1,10 @@
 # ZARQA Grid Inspection Humanoid Core
 
-[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21791735-blue)](https://doi.org/10.5281/zenodo.21791735)
+[![DOI - Software](https://img.shields.io/badge/Zenodo%20Software-10.5281%2Fzenodo.21858385-blue)](https://doi.org/10.5281/zenodo.21858385)
 [![DOI - Phase I Paper](https://img.shields.io/badge/Zenodo%20Phase%20I%20Paper-10.5281%2Fzenodo.21771994-00557f)](https://doi.org/10.5281/zenodo.21771994)
 [![DOI - Phase II Paper](https://img.shields.io/badge/Zenodo%20Phase%20II%20Paper-10.5281%2Fzenodo.21786725-00557f)](https://doi.org/10.5281/zenodo.21786725)
 [![DOI - Phase III Paper](https://img.shields.io/badge/Zenodo%20Phase%20III%20Paper-10.5281%2Fzenodo.21791840-00557f)](https://doi.org/10.5281/zenodo.21791840)
+[![DOI - Phase IV Paper](https://img.shields.io/badge/Zenodo%20Phase%20IV%20Paper-10.5281%2Fzenodo.21858431-00557f)](https://doi.org/10.5281/zenodo.21858431)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Compliance: IEC 63439 / 62443](https://img.shields.io/badge/Compliance-IEC%2063439%20%7C%2062443-orange)](https://www.iec.ch/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -183,8 +184,8 @@ If you use this codebase or mathematical architecture in your research, please c
   title        = {ZARQA Grid Inspection Humanoid Core: Phase IV Cognitive Swarm Core Release (v4.0.0)},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21791735},
-  url          = {https://doi.org/10.5281/zenodo.21791735}
+  doi          = {10.5281/zenodo.21858385},
+  url          = {https://doi.org/10.5281/zenodo.21858385}
 }
 
 @techreport{ahmed2026zarqa_phase1,
@@ -219,8 +220,8 @@ If you use this codebase or mathematical architecture in your research, please c
   title        = {A Cyber-Physical Sovereign Architecture for Autonomous Swarms: Formal Verification, Post-Quantum Consensus, and Immutable Zero-Trust Sandboxing (Phase IV)},
   year         = {2026},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.21791900},
-  url          = {https://doi.org/10.5281/zenodo.21791900}
+  doi          = {10.5281/zenodo.21858431},
+  url          = {https://doi.org/10.5281/zenodo.21858431}
 }
 
 ```
