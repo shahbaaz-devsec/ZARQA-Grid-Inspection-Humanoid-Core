@@ -63,6 +63,32 @@ The **ZARQA Grid Inspection Humanoid Core** implements an integrated, multi-phas
 
 ---
 
+### 📊 Phase 4 Verification Evidence & Execution Logs
+
+The following terminal logs capture the live production deployment, deterministic self-test execution, and systemd socket-activated stability of the ZARQA Cognitive Swarm Core (`v33.18.0`):
+
+#### 1. Automated Production Deployment & Dependency Provisioning
+*Execution of `--auto-deploy` establishing immutable blue-green virtual environments, downloading cryptographic wheels, and verifying Lean 4 theorem prover toolchains.*  
+![Phase 4 Auto-Deploy Initialization](assets/images/ZGIH_4_1.PNG)  
+![Phase 4 Dependency Pipeline](assets/images/ZGIH_4_4.PNG)
+
+#### 2. eBPF Kernel Hardening & Port Governance
+*Live compilation of eBPF C programs targeting `sys_getdents64` and deterministic port conflict resolution ensuring perfect socket disjointness.*  
+![Phase 4 eBPF Provisioning](assets/images/ZGIH_4_8.PNG)  
+![Phase 4 Port Governance](assets/images/ZGIH_4_9.PNG)
+
+#### 3. 8-Pillar Deterministic Self-Test Suite
+*Execution of verbose self-tests mathematically validating R-DTCBF QP solvers, 3D HJB solvers, PBFT state-machines, and Proof-Carrying Code (PCC) via Lean 4 AST verification.*  
+![Phase 4 Self-Test Execution](assets/images/ZGIH_4_10.PNG)  
+![Phase 4 Self-Test Summary](assets/images/ZGIH_4_11.PNG)
+
+#### 4. Systemd Daemon Initialization & Live Telemetry
+*Systemd journal logs confirming successful swarm loop execution, $\mathcal{I}_{trace} = 5.780$ tensor coherence, and live Prometheus metrics served flawlessly over port 9102.*  
+![Phase 4 Live Metrics](assets/images/ZGIH_4_12.PNG)  
+![Phase 4 Systemd Status](assets/images/ZGIH_4_13.PNG)
+
+---
+
 ## 📂 Repository Structure
 
 ```text
